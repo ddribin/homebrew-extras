@@ -1,6 +1,6 @@
 cask "ddribin-ffmpeg-static" do
   version "4.3"
-  sha256 "b29347ba16984ae943f0a05b14be03f533e95b2eb41ad9ea14a37b7ba507260b"
+  sha256 "3149dd7211b64ea4db96c730126885d8eb1f443095e6a5520b4a9c606aaa029d"
 
   url "https://ffmpeg.zeranoe.com/builds/macos64/static/ffmpeg-#{version}-macos64-static.zip"
   name "FFmpeg (static build)"
