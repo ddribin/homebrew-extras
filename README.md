@@ -1,4 +1,4 @@
-# Ddribin Extras
+# Dave Dribin's Homebrew Extras
 
 ## How do I install these formulae?
 `brew install ddribin/extras/<formula>`
