@@ -1,14 +1,13 @@
 cask "ddribin-ffmpeg-static" do
-  version "4.3"
-  sha256 "3149dd7211b64ea4db96c730126885d8eb1f443095e6a5520b4a9c606aaa029d"
+  version "4.3.1"
+  sha256 "8f3e9fca63a76d9f69bc60daf5aa8b524178de0e425452a2ecd872a9fd2eb9f6"
 
-  url "https://ffmpeg.zeranoe.com/builds/macos64/static/ffmpeg-#{version}-macos64-static.zip"
+  url "https://evermeet.cx/ffmpeg/ffmpeg-#{version}.zip"
   name "FFmpeg (static build)"
-  homepage "https://ffmpeg.zeranoe.com/builds/"
+  desc "Static build of FFmpeg"
+  homepage "https://evermeet.cx/ffmpeg/"
 
   conflicts_with :formula => "ffmpeg"
 
-  binary "ffmpeg-#{version}-macos64-static/bin/ffmpeg"
-  binary "ffmpeg-#{version}-macos64-static/bin/ffprobe"
-  binary "ffmpeg-#{version}-macos64-static/bin/ffplay"
+  binary "ffmpeg"
 end
