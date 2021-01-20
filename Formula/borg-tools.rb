@@ -4,7 +4,7 @@ class BorgTools < Formula
   desc "Dave Dribin's Borg tools"
   homepage "https://github.com/ddribin/borg-tools"
   url "https://github.com/ddribin/borg-tools/archive/4e0e5ddb3028a105841c9b8bfa6d66f9d7aeb60c.zip"
-  version "202101901"
+  version "202102001"
   sha256 "a03ccc886b365481b57774a3c9b4541d7c084b549c2b34e23afb0776c1fb4fe1"
   license "MIT"
 
