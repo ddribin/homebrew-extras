@@ -1,5 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
 class ResticTools < Formula
   desc "Dave Dribin's Restic tools"
   homepage "https://github.com/ddribin/restic-tools"

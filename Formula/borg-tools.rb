@@ -1,5 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
 class BorgTools < Formula
   desc "Dave Dribin's Borg tools"
   homepage "https://github.com/ddribin/borg-tools"
@@ -13,5 +11,6 @@ class BorgTools < Formula
   end
 
   test do
+    system "true"
   end
 end
