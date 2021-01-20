@@ -5,7 +5,7 @@ class ResticTools < Formula
   homepage "https://github.com/ddribin/restic-tools"
   url "https://github.com/ddribin/restic-tools/archive/e6e824cd7cc8a57f33f5518c078d8e473178eb88.zip"
   version "202102001"
-  sha256 "fc0804dea78e6e2b2f723fed7ddc3a02f3346dab8accc4a74f950ab2b18f46e5"
+  sha256 "5ef8229933533f46bbf1c1bfb51effc09281d5e98e9a1e9d7bf3fc8233a18cc1"
   license "MIT"
 
   def install
