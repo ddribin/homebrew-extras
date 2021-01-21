@@ -5,7 +5,7 @@ cask "borgbackup-binary" do
   url "https://github.com/borgbackup/borg/releases/download/#{version}/borg-macosx64"
   name "Borg backup binary"
   desc "Official prebuilt binary of Borg backup"
-  homepage "https://www.borgbackup.org"
+  homepage "https://www.borgbackup.org/"
 
   conflicts_with formula: "borgbackup"
 
