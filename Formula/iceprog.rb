@@ -1,5 +1,5 @@
 class Iceprog < Formula
-  desc "Yoysys iceprog"
+  desc "Yoysys IceProg"
   homepage "https://github.com/YosysHQ/icestorm"
   url "https://github.com/YosysHQ/icestorm/archive/c495861c19bd0976c88d4964f912abe76f3901c3.tar.gz"
   version "2021030901"
