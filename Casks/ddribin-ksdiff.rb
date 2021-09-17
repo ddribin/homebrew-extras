@@ -15,7 +15,7 @@ cask "ddribin-ksdiff" do
     end
   end
 
-  conflicts_with cask: ["homebrew/cask/kaleidoscope", "homebrew/cask/ksdiff"]
+  conflicts_with cask: ["kaleidoscope", "ksdiff"]
 
   pkg "ksdiff-#{version.before_comma}/Install ksdiff.pkg"
 
