@@ -4,7 +4,7 @@ cask "famistudio" do
 
   url "https://github.com/BleuBleu/FamiStudio/releases/download/#{version}/FamiStudio311-MacOS.zip"
   name "FamiStudio"
-  desc "A simple music editor for the Nintendo Entertainment System or Famicom"
+  desc "Simple music editor for the Nintendo Entertainment System or Famicom"
   homepage "https://famistudio.org/"
 
   depends_on cask: "mono-mdk"
