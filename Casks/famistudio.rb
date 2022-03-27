@@ -1,8 +1,8 @@
 cask "famistudio" do
-  version "3.1.1"
-  sha256 "b30e514cf75ff9f76ceee1eb99cf6ca0c7552684ff70940434cbd9f2ac1b032d"
+  version "3.2.3"
+  sha256 "716e8aa531d61dfbc7a11eca8cbd61aa359dfa9e079b3522f7dd664629effa33"
 
-  url "https://github.com/BleuBleu/FamiStudio/releases/download/#{version}/FamiStudio311-MacOS.zip",
+  url "https://github.com/BleuBleu/FamiStudio/releases/download/#{version}/FamiStudio#{version.no_dividers}-MacOS.zip",
       verified: "github.com/BleuBleu/FamiStudio/"
   name "FamiStudio"
   desc "Simple music editor for the Nintendo Entertainment System or Famicom"
