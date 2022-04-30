@@ -7,8 +7,8 @@ class Icestorm < Formula
   sha256 "91975085e49dc7ad8e600ca471ec6e4691243be78631e5f576f305700b94d605"
   license "ISC"
 
-  depends_on "python@3.10"
   depends_on "libftdi0"
+  depends_on "python@3.10"
   depends_on "yosys"
 
   def install
