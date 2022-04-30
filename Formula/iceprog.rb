@@ -7,6 +7,8 @@ class Iceprog < Formula
   sha256 "ff20faff0e3db2b5f1fb714486c8a5a5e480042de74267fcf59c772ec0805f66"
   license "ISC"
 
+  conflicts_with formula: "icesstorm"
+
   depends_on "libftdi0"
 
   def install
