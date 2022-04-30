@@ -23,5 +23,6 @@ class NextpnrIce40 < Formula
     cd "ice40/examples/blinky"
     system "yosys", "-p", "'synth_ice40 -top blinky -json blinky.json'", "blinky.v"
     system "nextpnr-ice40", "--hx1k", "--json", "blinky.json", "--pcf" "blinky.pcf", "--asc", "blinky.asc"
+    system "icepack", "blinky.asc", "blinky.bin"
   end
 end
