@@ -1,8 +1,8 @@
 cask "borgbackup-binary" do
-  version "1.1.17"
-  sha256 "289b60b29d9b17531491ebcc203ca8082e74c5d4028dddca2c17522eda9fe2f2"
+  version "1.2.2"
+  sha256 "b045de49d99a69ba7de1ff786db335de1e71861feab4f529186d26db2d7ea4f5"
 
-  url "https://github.com/borgbackup/borg/releases/download/#{version}/borg-macosx64",
+  url "https://github.com/borgbackup/borg/releases/download/#{version}/borg-macos64",
       verified: "github.com/borgbackup/borg/"
   name "Borg backup binary"
   desc "Official prebuilt binary of Borg backup"
@@ -10,5 +10,5 @@ cask "borgbackup-binary" do
 
   conflicts_with formula: "borgbackup"
 
-  binary "borg-macosx64", target: "borg"
+  binary "borg-macos64", target: "borg"
 end
