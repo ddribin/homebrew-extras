@@ -1,9 +1,9 @@
 class NextpnrIce40 < Formula
   desc "Portable FPGA place and route tool"
   homepage "https://www.clifford.at/icestorm/"
-  url "https://github.com/YosysHQ/nextpnr/archive/refs/tags/nextpnr-0.3.tar.gz",
+  url "https://github.com/YosysHQ/nextpnr/archive/refs/tags/nextpnr-0.5.tar.gz",
       verified: "github.com/YosysHQ/icestorm/"
-  sha256 "6dda678d369a73ca262896b672958eebeb2e6817f60afb411db31abeff191c4a"
+  sha256 "2e3485753123f1505351a37adec37ce47a3a96d3f67bbcaf59ec390c8ffc1cdd"
   license "ISC"
 
   depends_on "cmake" => :build
