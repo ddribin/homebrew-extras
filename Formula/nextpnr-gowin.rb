@@ -14,8 +14,7 @@ class NextpnrGowin < Formula
   depends_on "yosys"
 
   def install
-    system "cmake", "-S", ".", "-B", "build", "-DARCH=gowin",
-      "-DICESTORM_INSTALL_PREFIX=#{HOMEBREW_PREFIX}", *std_cmake_args
+    system "cmake", "-S", ".", "-B", "build", "-DARCH=gowin", *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
   end
