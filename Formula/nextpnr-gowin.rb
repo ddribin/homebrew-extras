@@ -20,6 +20,6 @@ class NextpnrGowin < Formula
   end
 
   test do
-    system "true"
+    system "/usr/bin/true"
   end
 end

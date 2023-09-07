@@ -1,8 +1,9 @@
 cask "ddribin-fceux" do
-  version "2.6.4"
-  sha256 "104b61e17cbb16d345aa2df625ac14f8a7d947d768cbe6ae6150c36a7be454bd"
+  version "2.6.5"
+  sha256 "f85471ced92016f835f9f0a8a7d8ea63e312946dc971b79905affbe83e4bba0b"
 
-  url "http://sourceforge.net/fceultra/fceux-#{version}-Darwin.dmg"
+  url "https://github.com/TASEmulators/fceux/releases/download/v#{version}/fceux-#{version}-Darwin.dmg",
+    verified: "github.com/TASEmulators/fceux"
   name "FCEUX binary"
   desc "Official FCEUX binary"
   homepage "https://fceux.com/web/home.html"
