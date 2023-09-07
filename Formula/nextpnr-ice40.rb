@@ -22,8 +22,8 @@ class NextpnrIce40 < Formula
 
   test do
     cd "ice40/examples/blinky"
-    system "yosys", "-p", "'synth_ice40 -top blinky -json blinky.json'", "blinky.v"
-    system "nextpnr-ice40", "--hx1k", "--json", "blinky.json", "--pcf", "blinky.pcf", "--asc", "blinky.asc"
-    system "icepack", "blinky.asc", "blinky.bin"
+    system bin/"yosys", "-p", "'synth_ice40 -top blinky -json blinky.json'", "blinky.v"
+    system bin/"nextpnr-ice40", "--hx1k", "--json", "blinky.json", "--pcf", "blinky.pcf", "--asc", "blinky.asc"
+    system bin/"icepack", "blinky.asc", "blinky.bin"
   end
 end
