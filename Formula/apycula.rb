@@ -4,10 +4,10 @@ class Apycula < Formula
   desc "Open source tools for the Gowin FPGA bitstream format"
   homepage "https://github.com/YosysHQ/apicula"
 
-  depends_on "python@3.11"
-  
   url "https://files.pythonhosted.org/packages/21/0f/b15f184f8345be5b85df92b5efb0ef690c3b34b4b656d38764ad49c6d6a7/Apycula-0.8.1.tar.gz"
   sha256 "2339ceb7af60cd63bff929f0f587e60d4d82135e4867e8e53f3f9919f3f32be4"
+
+  depends_on "python@3.11"
 
   resource "crcmod" do
     url "https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz"

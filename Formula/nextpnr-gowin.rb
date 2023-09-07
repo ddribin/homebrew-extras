@@ -7,9 +7,9 @@ class NextpnrGowin < Formula
   license "ISC"
 
   depends_on "cmake" => :build
+  depends_on "apycula"
   depends_on "boost"
   depends_on "eigen"
-  depends_on "apycula"
   depends_on "python@3.11"
   depends_on "yosys"
 
