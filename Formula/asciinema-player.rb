@@ -1,13 +1,13 @@
 class AsciinemaPlayer < Formula
   desc "Web player for terminal sessions recorded with asciinema"
   homepage "https://github.com/asciinema/asciinema-player"
-  url "https://github.com/asciinema/asciinema-player/releases/download/v3.5.0/asciinema-player.min.js"
-  sha256 "13ce28231b851b9b83cbe76f80265290ce82f9d81d2c9c24eb0b486bbdc77bfe"
+  url "https://github.com/asciinema/asciinema-player/releases/download/v3.6.3/asciinema-player.min.js"
+  sha256 "f20f326fcc178e20412af6ab3f0bbbbafba428dc07c65bc86cc08d18e1ac7a95"
   license "Apache-2.0"
 
   resource "css" do
-    url "https://github.com/asciinema/asciinema-player/releases/download/v3.5.0/asciinema-player.css"
-    sha256 "3e2d94f8ed4f1ec1608c5fe25de5a07a4f16a5709f7e0eb1864cf48b9ff7e1f5"
+    url "https://github.com/asciinema/asciinema-player/releases/download/v3.6.3/asciinema-player.css"
+    sha256 "18c221bb91e76f6caf136029dbd10f0539dcad1e39ad957874527aed5637ee86"
   end
 
   def install
