@@ -12,7 +12,7 @@ cask "llvm-mos" do
 
   caveats <<~EOS
     LLVM-MOS files will be installed to:
-      #{HOMEBREW_PREFIX}/llbm-mos.
+      #{HOMEBREW_PREFIX}/llvm-mos
 
     WARNING: Don't install LLVM-MOS into your path if you already have
     LLVM/Clang installed. LLVM-MOS conflicts with other LLVM/Clang
@@ -21,7 +21,7 @@ cask "llvm-mos" do
     However, if you would like to add it to your path, for bash shell, add
     these lines to ~/.bash_profile:
 
-      export PATH=$PATH:#{HOMEBREW_PREFIX}/llbm-mos/bin
+      export PATH=$PATH:#{HOMEBREW_PREFIX}/llvm-mos/bin
 
     You may need to reinstall LLVM-MOS with "--no-quarantine", otherwise
     Gatekeeper will prevent the binaries from running.
