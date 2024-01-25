@@ -3,8 +3,8 @@ class BorgTools < Formula
   homepage "https://github.com/ddribin/borg-tools"
   url "https://github.com/ddribin/borg-tools.git",
     using:    :git,
-    revision: "a9f16058995f19d3178c24285031296d8400d4ec"
-  version "2024011801"
+    revision: "e8e2769e5f1d32ff026d6ee94c9bfb1748e8918e"
+  version "2024011901"
   license "MIT"
 
   def install
