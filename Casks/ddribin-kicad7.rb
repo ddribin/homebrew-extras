@@ -1,4 +1,4 @@
-cask "ddribin-kicad@7" do
+cask "ddribin-kicad7" do
   version "7.0.11"
   sha256 "18217146ce23e57a103fb49d8cdc3afd9f9a5b18bae05f2aa3712fdc85d71096"
 
@@ -13,9 +13,9 @@ cask "ddribin-kicad@7" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
-
   conflicts_with cask: "kicad"
+
+  depends_on macos: ">= :big_sur"
 
   suite "KiCad"
   binary "KiCad/KiCad.app/Contents/MacOS/dxf2idf"
