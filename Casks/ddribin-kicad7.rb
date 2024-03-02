@@ -14,7 +14,6 @@ cask "ddribin-kicad7" do
   end
 
   conflicts_with cask: "kicad"
-
   depends_on macos: ">= :big_sur"
 
   suite "KiCad"
