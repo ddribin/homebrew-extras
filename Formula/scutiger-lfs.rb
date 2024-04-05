@@ -4,7 +4,7 @@ class ScutigerLfs < Formula
   url "https://crates.io/api/v1/crates/scutiger-lfs/0.3.0/download"
   sha256 "a58aa9a98281a798991f96aa90549abd0fd9d24d8bd2bff0b68d99092925fcbd"
   license "MIT"
-  
+
   depends_on "rust" => :build
 
   def install
