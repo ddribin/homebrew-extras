@@ -5,6 +5,12 @@ class ScutigerLfs < Formula
   sha256 "a58aa9a98281a798991f96aa90549abd0fd9d24d8bd2bff0b68d99092925fcbd"
   license "MIT"
 
+  bottle do
+    rebuild 1
+    root_url "https://www.dribin.org/dave/resources/homebrew"
+    sha256 cellar: :any_skip_relocation, sonoma: "c140c7c4bb09bf8cf1ecb70e026227c18f16f88a27b6c104b587135714da3da4"
+  end
+
   depends_on "rust" => :build
 
   def install
