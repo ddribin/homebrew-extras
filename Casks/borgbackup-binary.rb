@@ -1,6 +1,6 @@
 cask "borgbackup-binary" do
-  version "1.2.7"
-  sha256 "fcb14233dce72b98e0fa90307d544715f6137201137b22908b8cf07a775c97eb"
+  version "1.2.8"
+  sha256 "f45a9424f4bac54322d07bd0e98f82598a1d983339d31da60195238f285ce4e3"
 
   url "https://github.com/borgbackup/borg/releases/download/#{version}/borg-macos64",
       verified: "github.com/borgbackup/borg/"
