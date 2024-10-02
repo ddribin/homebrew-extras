@@ -4,19 +4,14 @@ class Apycula < Formula
   desc "Open source tools for the Gowin FPGA bitstream format"
   homepage "https://github.com/YosysHQ/apicula"
 
-  url "https://files.pythonhosted.org/packages/21/0f/b15f184f8345be5b85df92b5efb0ef690c3b34b4b656d38764ad49c6d6a7/Apycula-0.8.1.tar.gz"
-  sha256 "2339ceb7af60cd63bff929f0f587e60d4d82135e4867e8e53f3f9919f3f32be4"
+  url "https://files.pythonhosted.org/packages/a0/e0/e447cb2fc8506ab0a0a72c8355f5289ca369fa5ccbcc85d6d1af80c80eb9/Apycula-0.14.tar.gz"
+  sha256 "b2e9ea0967d7cfdd67a9b25719e8afa370e840e560700f20acee63ddab6b2dba"
 
-  depends_on "python@3.11"
+  depends_on "python@3.12"
 
-  resource "crcmod" do
-    url "https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz"
-    sha256 "dc7051a0db5f2bd48665a990d3ec1cc305a466a77358ca4492826f41f283601e"
-  end
-
-  resource "numpy" do
-    url "https://files.pythonhosted.org/packages/cf/7a/f68d1d658a0e68084097beb212fa9356fee7eabff8b57231cc4acb555b12/numpy-1.25.1.tar.gz"
-    sha256 "9a3a9f3a61480cc086117b426a8bd86869c213fc4072e606f01c4e4b66eb92bf"
+  resource "crc" do
+    url "https://files.pythonhosted.org/packages/54/39/7e3c6f9af03f0012d4f8ecdf29689fed1f27d57d0f965bf051da4905fa78/crc-7.0.0.tar.gz"
+    sha256 "b9fc521042167f2b59d9183ce27acc0897e4a17748421e8b304ccdf7ebf4280a"
   end
 
   def install
