@@ -2,12 +2,12 @@ cask "ddribin-ffmpeg-static" do
   arch arm: "arm", intel: "intel"
 
   on_arm do
-    version "6.1.1"
-    sha256 "1c69a9a4a5d0172d9aec611f19d282b38b3c3d69832621ecef87926335f62e0a"
+    version "7.1.1"
+    sha256 "59e39a5cec2e5d2307ed079c53227a9181e64b87454ed4de998349e044bfdc70"
   end
   on_intel do
-    version "6.1"
-    sha256 "9a7de6ea24052166340c50e00dd493da49315431e6bfde5ed2a600eab9f27b65"
+    version "7.1"
+    sha256 "356b39a61de48eadb57a3f84f53d3261ab9847c788d88537511a475a7137a1e6"
   end
 
   url "https://www.osxexperts.net/ffmpeg#{version.delete(".")}#{arch}.zip"

@@ -2,12 +2,12 @@ cask "ddribin-ffprobe-static" do
   arch arm: "arm", intel: "intel"
 
   on_arm do
-    version "6.1.1"
-    sha256 "8ec78ce09c0b474ae7583908c8d79d801f754d8273dca3d5a5de51f307517fc7"
+    version "7.1.1"
+    sha256 "e695da37c08c8fbc218ebc161ee20d5606b50f3c7e8d696cbcf01bd40fe20d7e"
   end
   on_intel do
-    version "6.1"
-    sha256 "977381d8cec9c477fef4cdbb259addc7e5506e47fa61087e620d5ed01a7c7a51"
+    version "7.1"
+    sha256 "dc42e20dbb7fa5c334dd2bd822a6f90e4c838b4fa74f14523589e6ce8361c7c4"
   end
 
   url "https://www.osxexperts.net/ffprobe#{version.delete(".")}#{arch}.zip"
