@@ -8,7 +8,5 @@ cask "ddribin-fceux" do
   desc "Official FCEUX binary"
   homepage "https://fceux.com/web/home.html"
 
-  conflicts_with formula: "fceux"
-
   app "fceux.app"
 end

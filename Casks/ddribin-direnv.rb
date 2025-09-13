@@ -7,7 +7,5 @@ cask "ddribin-direnv" do
   desc "an extension for your shell."
   homepage "https://direnv.net"
 
-  conflicts_with formula: "direnv"
-
   binary "direnv.darwin-arm64", target: "direnv"
 end

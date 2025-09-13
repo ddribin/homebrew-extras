@@ -15,7 +15,5 @@ cask "ddribin-ffmpeg-static" do
   desc "Static build of ffmpeg binary from OSXExperts.net"
   homepage "https://www.osxexperts.net/"
 
-  conflicts_with formula: "ffmpeg"
-
   binary "ffmpeg"
 end

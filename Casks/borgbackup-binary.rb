@@ -8,7 +8,5 @@ cask "borgbackup-binary" do
   desc "Official prebuilt binary of Borg backup"
   homepage "https://www.borgbackup.org/"
 
-  conflicts_with formula: "borgbackup"
-
   binary "borg-macos64", target: "borg"
 end
