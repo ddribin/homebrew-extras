@@ -2,8 +2,8 @@ cask "ddribin-ffprobe-static" do
   arch arm: "arm", intel: "intel"
 
   on_arm do
-    version "7.1.1"
-    sha256 "e695da37c08c8fbc218ebc161ee20d5606b50f3c7e8d696cbcf01bd40fe20d7e"
+    version "8.0"
+    sha256 "b46eb342707ec0d31d3e8337bb56831e59c9e20918f414fd7a9d65a32fcb348f"
   end
   on_intel do
     version "7.1"

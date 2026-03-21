@@ -2,8 +2,8 @@ cask "ddribin-ffmpeg-static" do
   arch arm: "arm", intel: "intel"
 
   on_arm do
-    version "7.1.1"
-    sha256 "59e39a5cec2e5d2307ed079c53227a9181e64b87454ed4de998349e044bfdc70"
+    version "8.0"
+    sha256 "0d4efcaf6a098430a708e0af694a84792938921fa126162787ae98c6151d7a95"
   end
   on_intel do
     version "7.1"
