@@ -1,6 +1,6 @@
 cask "dotnet-runtime@8" do
-  version "8.0.11"
-  sha256 "cde1faefffa1b0eefecdda6c4549322ce5bd161d6678e4a772e93fa588a95fd1"
+  version "8.0.26"
+  sha256 "6b09cc868adea36e7b63d0a2c76fb650b3bc4f711281ca66d6275a1272f6bffb"
 
   url "https://builds.dotnet.microsoft.com/dotnet/Runtime/#{version}/dotnet-runtime-#{version}-osx-arm64.pkg"
   name ".NET Runtime 8"
