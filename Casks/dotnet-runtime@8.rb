@@ -27,7 +27,7 @@ cask "dotnet-runtime@8" do
     "dotnet-sdk@preview",
   ]
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   pkg "dotnet-runtime-#{version}-osx-arm64.pkg"
   binary "/usr/local/share/dotnet/dotnet"

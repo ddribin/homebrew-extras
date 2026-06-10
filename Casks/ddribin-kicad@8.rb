@@ -17,7 +17,7 @@ cask "ddribin-kicad@8" do
     kicad
     ddribin-kicad7
 ]
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   suite "KiCad"
   binary "KiCad/KiCad.app/Contents/MacOS/dxf2idf"
