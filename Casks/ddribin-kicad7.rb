@@ -2,8 +2,7 @@ cask "ddribin-kicad7" do
   version "7.0.11"
   sha256 "18217146ce23e57a103fb49d8cdc3afd9f9a5b18bae05f2aa3712fdc85d71096"
 
-  url "https://github.com/KiCad/kicad-source-mirror/releases/download/#{version}/kicad-unified-universal-#{version}.dmg",
-      verified: "github.com/KiCad/kicad-source-mirror/"
+  url "https://github.com/KiCad/kicad-source-mirror/releases/download/#{version}/kicad-unified-universal-#{version}.dmg"
   name "KiCad"
   desc "Electronics design automation suite"
   homepage "https://kicad.org/"

@@ -2,8 +2,7 @@ cask "llvm-mos" do
   version "8.0.1"
   sha256 "e8932a1d3cb586f0ce2b7e9982bb8de3ebddfc72f7669422ed0739bd65825843"
 
-  url "https://github.com/llvm-mos/llvm-mos-sdk/releases/download/v#{version}/llvm-mos-macos.tar.xz",
-      verified: "github.com/llvm-mos/llvm-mos-sdk/"
+  url "https://github.com/llvm-mos/llvm-mos-sdk/releases/download/v#{version}/llvm-mos-macos.tar.xz"
   name "LLVM-MOS"
   desc "Compiler toolchain and platform SDK libraries for MOS 6502 targets"
   homepage "https://www.llvm-mos.org/"
